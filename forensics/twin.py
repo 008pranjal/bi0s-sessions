@@ -7,5 +7,5 @@ with open('./Twin2', 'rb') as f:
 f = ''
 for i in range(min(len(twin1), len(twin2))):
     if twin1[i] != twin2[i]:
-        flag += str(twin2[i])
+        f += str(twin2[i])
 print(f)
